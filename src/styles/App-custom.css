@@ -1,0 +1,17 @@
+body {
+    background-color: #363636;
+}
+
+.controls.disable {
+    display: none;
+}
+
+.controls {
+    left: 0px;
+    top: 0px;
+    margin: 20px;
+    width: 62%;
+    height: 20px;
+    opacity: .8;
+    position: fixed;
+}

@@ -1,0 +1,84 @@
+.route-point-list {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 99vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.route-point-list main {
+  background-color: #363636;
+  color: #fff;
+  padding: 10px;
+  width: 100%
+}
+
+.route-point-list main h3 {
+  color: #aeaeae;
+  margin: 0px;
+  padding: 5px;
+  border-bottom: 1px solid;
+}
+
+.route-point-list ul {
+  padding: 0;
+  list-style: none;
+  overflow: scroll;
+  height: 92%;
+  overflow-x: hidden;
+  margin: 10px 0px 10px 0px;
+}
+
+.route-point-list ul li {
+  color: #d3d3d3;
+  background-color: #363636;
+  padding: 10px;
+  position: relative;
+  display: block;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  line-height: 1;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.route-point-list ul li .main-container {
+  display: flex;
+}
+
+.route-point-list li .drag {
+  margin-right: 15px;
+  cursor: move;
+}
+
+.route-point-list li svg {
+  height: 25px;
+  width: 25px;
+  color: #6288fa;
+}
+
+.content .detail-status {
+  color: #6288fa;
+  font-size: 20px;
+  float: right;
+}
+
+.detail-info {
+  margin-left: 62px;
+  margin-top: 7px;
+  display: inline-grid;
+}
+
+.little-icon {
+  color: #6288fa;
+  float: right;
+}
+
+.attation {
+  color: #00ac9a;
+  text-align: center;
+  margin-top: 60%;
+}
